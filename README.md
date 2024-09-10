@@ -1,17 +1,48 @@
 # 🥁 Drum Kit
 
-This project is a simple Drum Kit app built using HTML, CSS, and JavaScript. The app allows users to play different drum sounds by either clicking on the buttons or pressing the corresponding keys on their keyboard.
+A simple Drum Kit app built with HTML, CSS, and JavaScript. Click buttons or press keys to play drum sounds.
 
 ## 🎶 Features
 
-- Play drum sounds by clicking the buttons on the webpage.
-- Play sounds using keyboard keys (W, A, S, D, J, K, L).
-- Visual feedback with button animations when a key or button is pressed.
+- Play sounds by clicking buttons or using keyboard keys (`W`, `A`, `S`, `D`, `J`, `K`, `L`).
+- Button animation when pressed.
 
-## 🚀 Getting Started
+## 🚀 Setup
 
-### 1. Clone the Repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/drum-kit.git
+   cd drum-kit
+2. Add the following sound files in the `sounds/` folder:
 
-```bash
-git clone https://github.com/your-username/drum-kit.git
-cd drum-kit
+- `tom-1.mp3`
+- `tom-2.mp3`
+- `tom-3.mp3`
+- `tom-4.mp3`
+- `snare.mp3`
+- `crash.mp3`
+- `kick-bass.mp3`
+
+3. Open `index.html` in your browser.
+
+🎛️ **Controls**
+
+Click buttons or use keys:
+
+- `W` → Tom 1
+- `A` → Tom 2
+- `S` → Tom 3
+- `D` → Tom 4
+- `J` → Snare
+- `K` → Crash
+- `L` → Kick Bass
+
+🛠️ **Technologies**
+
+- HTML, CSS, JavaScript
+
+📄 **License**
+
+- MIT License
+
+Enjoy creating beats! 🎵
